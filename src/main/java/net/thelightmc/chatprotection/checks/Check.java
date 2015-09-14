@@ -2,6 +2,9 @@ package net.thelightmc.chatprotection.checks;
 
 import org.bukkit.entity.Player;
 
+/**
+ * @author TheLightMC
+ */
 public interface Check {
     /**
      * @param player who sent the message
@@ -10,7 +13,13 @@ public interface Check {
      */
     boolean checkMessage(Player player,String message);
 
-    enum CheckType {
-        SPEED,CAPITALS
-    }
+    /**
+     * @return desired error message
+     */
+    String getErrorMessage();
+
+    /**
+     * @return violation increment
+     */
+    int getViolationLevel();
 }
