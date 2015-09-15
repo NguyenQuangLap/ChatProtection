@@ -3,3 +3,7 @@ version: 1.0
 main: net.thelightmc.chatprotection.ChatProtection
 author: TheLightMC
 description: Protect your chat from spammers
+commands:
+   chat:
+      description: Basic chat command
+      usage: /chat
