@@ -1,8 +1,8 @@
-###ChatProtection
+#ChatProtection
 ========
-#Protecting your chat from spammers
+###Protecting your chat from spammers
 ========
-#Commands:
+###Commands:
 - /Chat clear - Clears chat.
 - /Chat lock - Locks chat.
 - /Chat reverse - Reverses all of the chat.
