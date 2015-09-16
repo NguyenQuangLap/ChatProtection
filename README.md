@@ -1,5 +1,4 @@
-#ChatProtection
-========
+#ChatProtection:
 Protecting your chat from spammers
 ========
 Commands:
